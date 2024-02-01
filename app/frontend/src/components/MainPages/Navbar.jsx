@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className="container mx-auto py-4">
                     <div className="flex justify-around items-center">
                         <div>
-                            <a href="#" className="font-bold text-2xl">UpDash</a>
+                            <a href="/" className="font-bold text-2xl">UpDash</a>
                         </div>
 
                         <a href={callback_url}
