@@ -1,1 +1,0 @@
-export const isLogin = window.location.pathname.startsWith("/panel");

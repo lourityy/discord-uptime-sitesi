@@ -1,5 +1,0 @@
-{
-    "link_limit": 3,
-    "api_url": "http://localhost:5000/api",
-    "callback_url": ""
-}
