@@ -1,3 +1,5 @@
+import { callback_url } from '../../../config.json';
+
 const Navbar = () => {
     return (
         <div>
@@ -9,7 +11,7 @@ const Navbar = () => {
                             <a href="#" className="font-bold text-2xl">UpDash</a>
                         </div>
 
-                        <a href="https://discord.com/api/oauth2/authorize?client_id=1199712383518642323&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A5173%2Fcallback&scope=identify"
+                        <a href={callback_url}
                             className="bg-indigo-600 hover:bg-indigo-500 hover:-translate-y-0.5 duration-300 rounded-md py-2 px-4 font-semibold">Giriş
                             yap</a>
                     </div>
