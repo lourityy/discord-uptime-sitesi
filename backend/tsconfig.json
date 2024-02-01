@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+          "@/*": ["src/*"]
+        }
+    },
+    "include": [
+        "src/**/*.ts"
+, "src/main.js", "src/utils/index.js", "src/types/user.js", "src/models/users.js", "src/services/apiServices.js", "src/controller/index.js", "src/controller/routes/user.js", "src/bot/discord/index.js", "src/utils/function/discord.js", "src/utils/function/key/id.js", "src/utils/function/key/token.js", "src/utils/function/console.js"    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

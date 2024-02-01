@@ -1,0 +1,18 @@
+body {
+    background-color: #111315;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+    html,
+    body,
+    #root {
+        @apply h-screen bg-[#111315] 
+    }
+
+}
