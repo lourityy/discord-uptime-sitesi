@@ -33,12 +33,13 @@
 1 ) Backend kısmını [Glitch'e](https://glitch.com/) aktarmak.
   
 2 ) Frontend'i [Vercel'e](https://vercel.com/) aktarmak.
-
-
-Bu projenin izinsiz paylaşılması/satılması kesinlikle yasaktır.
   
 3 ) Vercel'e projenizi aktarmadan önce configteki 'api_url' yi glitch linkine göre ayarlayın.
   
 4 ) Glitch'e aktardığınız backend kısmındaki .env'de de vercel linkini ayarlayın.
   
 5 ) Siteniz artık hazır! ✨
+
+
+
+Bu projenin izinsiz paylaşılması/satılması kesinlikle yasaktır.
