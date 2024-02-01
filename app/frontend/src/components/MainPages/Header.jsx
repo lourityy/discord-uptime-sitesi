@@ -1,3 +1,5 @@
+import { callback_url } from '../../../config.json';
+
 const Header = () => {
     return (
         <div>
@@ -7,7 +9,7 @@ const Header = () => {
                         linklerinizi<br /><span className="text-5xl sm:text-7xl">7/24 aktif tutun!</span></h1>
                 </div>
                 <div className="flex justify-center mt-8">
-                    <a href="https://discord.com/api/oauth2/authorize?client_id=1199712383518642323&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A5173%2Fcallback&scope=identify"
+                    <a href={callback_url}
                         className="duration-300 bg-indigo-600 hover:bg-indigo-500 hover:-translate-y-0.5 rounded-md py-2 px-8 font-semibold">Giriş
                         yap</a>
                 </div>
