@@ -30,7 +30,7 @@
 ## 🌐 Projeyi Nasıl Globale Açarım?
 - Projeyi globale açabilmek için yapmanız gereken adımlar:
 
-1 ) Backend kısmını [Glitch'e](https://glitch.com/) aktarmak.
+1 ) Backend kısmını [Replit'e](https://replit.com/) aktarmak.
   
 2 ) Frontend'i [Vercel'e](https://vercel.com/) aktarmak.
   
