@@ -11,6 +11,8 @@ export default (client: Client) => {
 
         setInterval(async () => {
             const response = await axios.get<{ uptimeLinks: { uptime_link: string }[] }>(`${process.env.API_URL}/all_link`);
+            
+            if (!response.data.uptimeLinks) return;
             const sonuc = response.data.uptimeLinks.map((item) => item.uptime_link);
 
             sonuc.forEach((link) => {
