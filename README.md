@@ -1,11 +1,10 @@
-## Discord Botu İle Entegreli Uptime Sitesi
+## Discord İle Entegreli Uptime Sitesi
 
 ## 📑 Site Özellikleri
 
 - [x] Yönetim Panelli
 - [x] Full Responsive
 - [x] Yeni Nesil Tasarım
-- [x] Bot Entegreli ([Bot için tıkla ↗️](https://github.com/SlenzyCode/gelismis-uptime-bot))
 
 ## 🖊️ Projeyi Nasıl Başlatırım?
 - Anlatım videosu için [buraya tıkla!](https://youtu.be/K6-tzGbmmfU?si=NOiHKGAZzk4FTpJQ)
